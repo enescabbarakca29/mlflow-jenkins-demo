@@ -1,0 +1,28 @@
+# Python sanal ortam klasörü
+.venv/
+venv/
+ENV/
+
+# MLflow log klasörü
+mlruns/
+
+# Derleme ve önbellek klasörleri
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test cache
+.pytest_cache/
+
+# IDE / editör dosyaları
+.vscode/
+.idea/
+
+# Geçici veya sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Log veya geçici çıktı dosyaları
+*.log
+run_summary.txt

@@ -1,4 +1,4 @@
-# 🚀 MLflow + Jenkins Pipeline Demo
+ MLflow + Jenkins Pipeline Demo
 
 Bu proje, **Yapay Zeka ve Veri Mühendisliği** alanında bir **MLOps otomasyon hattı (CI/CD pipeline)** örneğidir.  
 Amaç, makine öğrenimi modellerini **Jenkins** üzerinden otomatik olarak eğitmek,  
@@ -12,7 +12,7 @@ Bu çalışma, **Jenkins** ile CI/CD entegrasyonu yaparak, makine öğrenimi eğ
 Her model eğitimi, belirli parametrelerle (örnek: `alpha`, `l1_ratio`) başlatılır ve sonuçlar MLflow üzerinde kaydedilir.  
 Proje, **MLOps kavramının** temel prensiplerini göstermektedir.
 
-### 🧩 İçerik
+###  İçerik
 
 ### 🔧 Kullanılan Teknolojiler
 - **Python 3.11+**
@@ -20,7 +20,7 @@ Proje, **MLOps kavramının** temel prensiplerini göstermektedir.
 - **MLflow (Tracking & Model Registry)**
 - **scikit-learn**, **pandas**, **pytest**
 
-### 🧠 Çalıştırma Adımları
+###  Çalıştırma Adımları
 1. Jenkins üzerinde pipeline'ı çalıştırın.  
    (Pipeline otomatik olarak `train.py` dosyasını çağırır ve modeli eğitir.)
 2. Eğitim tamamlandıktan sonra MLflow arayüzünü başlatın:
